@@ -25,7 +25,7 @@ UPSTREAM_REPO = getenv("UPSTREAM_REPO","https://github.com/AbhiModszYT/PubliceMu
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)# Fill this variable if your upstream repository is private
 SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/Logs_Gban")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+z-zFH1Os1DVhMDE1")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+sKjT3eiF_jZjZjQ1")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
 AUTO_LEAVE_ASSISTANT_TIME = int(getenv("ASSISTANT_LEAVE_TIME", "5400"))
 SONG_DOWNLOAD_DURATION = int(getenv("SONG_DOWNLOAD_DURATION", "900"))
@@ -112,7 +112,7 @@ if SUPPORT_CHANNEL:
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHANNEL url is wrong. Please ensure that it starts with https://"
         )
-if SUPPORT_CHAT:
+if SUPPORT_:
     if not re.match("(?:http|https)://", SUPPORT_CHAT):
         raise SystemExit(
             "[ERROR] - Your SUPPORT_CHAT url is wrong. Please ensure that it starts with https://"
